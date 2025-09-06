@@ -23,6 +23,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 # Step 4: Model training
 model = LogisticRegression()
 model.fit(X_train, y_train)
+t
 
 # Step 5: Prediction
 y_pred = model.predict(X_test)
